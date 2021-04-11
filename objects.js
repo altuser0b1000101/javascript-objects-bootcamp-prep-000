@@ -7,3 +7,4 @@ function updatePlaylist(playlist,artist1){
   playlist[artist1] = 'song1';
 }
 
+ removeFromPlaylist(playlist, artistName)
