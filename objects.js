@@ -5,4 +5,7 @@ var playlist = {
 
 Object.assaign( {} , playlist , { [artist1]: 'song1'});
 
-Function updatePlaylist(playlist, artistName, songTitle)
+function updatePlaylist(playlist,artist1){
+  playlist[artist1] = 'song1';
+}
+
